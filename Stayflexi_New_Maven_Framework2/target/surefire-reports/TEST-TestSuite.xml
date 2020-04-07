@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="112.675" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="./drivers/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/prema/eclipse-workspace/Stayflexi_New_Maven_Framework/target/test-classes:/home/prema/eclipse-workspace/Stayflexi_New_Maven_Framework/target/classes:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-server/3.5.3/selenium-server-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-java/3.5.3/selenium-java-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-api/3.5.3/selenium-api-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.5.3/selenium-chrome-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.5.3/selenium-edge-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.5.3/selenium-firefox-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.5.3/selenium-ie-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.5.3/selenium-opera-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.5.3/selenium-safari-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3.jar:/home/prema/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/prema/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/home/prema/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/prema/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/prema/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/prema/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/home/prema/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.23/cssparser-0.9.23.jar:/home/prema/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/prema/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/prema/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/prema/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/prema/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/prema/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/prema/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/prema/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27.jar:/home/prema/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.27/htmlunit-core-js-2.27.jar:/home/prema/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.27/neko-htmlunit-2.27.jar:/home/prema/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/prema/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/prema/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/home/prema/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.5.v20170502/jetty-repacked-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/jetty-client/9.4.5.v20170502/jetty-client-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502.jar:/home/prema/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/home/prema/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/home/prema/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/prema/.m2/repository/com/codeborne/phantomjsdriver/1.4.0/phantomjsdriver-1.4.0.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.27/htmlunit-driver-2.27.jar:/home/prema/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/prema/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.5.v20170502/websocket-api-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.5.v20170502/websocket-client-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.5.v20170502/websocket-common-9.4.5.v20170502.jar:/home/prema/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/prema/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/prema/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/home/prema/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/prema/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/home/prema/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/home/prema/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/home/prema/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/prema/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/home/prema/.m2/repository/org/apache/poi/poi-scratchpad/3.17/poi-scratchpad-3.17.jar:/home/prema/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/home/prema/.m2/repository/org/apache/poi/poi-examples/3.17/poi-examples-3.17.jar:/home/prema/.m2/repository/org/apache/poi/poi-excelant/3.17/poi-excelant-3.17.jar:/home/prema/.m2/repository/org/apache/ant/ant/1.8.2/ant-1.8.2.jar:/home/prema/.m2/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar:/home/prema/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/prema/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/prema/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar:/home/prema/.m2/repository/com/github/virtuald/curvesapi/1.05/curvesapi-1.05.jar:/home/prema/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/home/prema/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/prema/.m2/repository/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar:/home/prema/.m2/repository/org/apache/logging/log4j/log4j-api/2.9.1/log4j-api-2.9.1.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/prema/eclipse-workspace/Stayflexi_New_Maven_Framework/target/surefire/surefirebooter800969064907528878.jar /home/prema/eclipse-workspace/Stayflexi_New_Maven_Framework/target/surefire 2020-03-31T12-43-21_712-jvmRun1 surefire4589550822270839459tmp surefire_02080902801187088582tmp"/>
+    <property name="surefire.test.class.path" value="/home/prema/eclipse-workspace/Stayflexi_New_Maven_Framework/target/test-classes:/home/prema/eclipse-workspace/Stayflexi_New_Maven_Framework/target/classes:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-server/3.5.3/selenium-server-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-java/3.5.3/selenium-java-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-api/3.5.3/selenium-api-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.5.3/selenium-chrome-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.5.3/selenium-edge-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.5.3/selenium-firefox-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.5.3/selenium-ie-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.5.3/selenium-opera-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.5.3/selenium-safari-driver-3.5.3.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/selenium-support/3.5.3/selenium-support-3.5.3.jar:/home/prema/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/prema/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/home/prema/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/prema/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/prema/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/prema/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/home/prema/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.23/cssparser-0.9.23.jar:/home/prema/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/prema/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/prema/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/prema/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/prema/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/prema/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/prema/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/prema/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.27/htmlunit-2.27.jar:/home/prema/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.27/htmlunit-core-js-2.27.jar:/home/prema/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.27/neko-htmlunit-2.27.jar:/home/prema/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/prema/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/prema/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/home/prema/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.5.v20170502/jetty-repacked-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/jetty-client/9.4.5.v20170502/jetty-client-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/jetty-http/9.4.5.v20170502/jetty-http-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/jetty-io/9.4.5.v20170502/jetty-io-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/jetty-util/9.4.5.v20170502/jetty-util-9.4.5.v20170502.jar:/home/prema/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/home/prema/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/home/prema/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/prema/.m2/repository/com/codeborne/phantomjsdriver/1.4.0/phantomjsdriver-1.4.0.jar:/home/prema/.m2/repository/org/seleniumhq/selenium/htmlunit-driver/2.27/htmlunit-driver-2.27.jar:/home/prema/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/prema/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.5.v20170502/websocket-api-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.5.v20170502/websocket-client-9.4.5.v20170502.jar:/home/prema/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.5.v20170502/websocket-common-9.4.5.v20170502.jar:/home/prema/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/prema/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/prema/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/home/prema/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/home/prema/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/home/prema/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/home/prema/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/home/prema/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/prema/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/home/prema/.m2/repository/org/apache/poi/poi-scratchpad/3.17/poi-scratchpad-3.17.jar:/home/prema/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/home/prema/.m2/repository/org/apache/poi/poi-examples/3.17/poi-examples-3.17.jar:/home/prema/.m2/repository/org/apache/poi/poi-excelant/3.17/poi-excelant-3.17.jar:/home/prema/.m2/repository/org/apache/ant/ant/1.8.2/ant-1.8.2.jar:/home/prema/.m2/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar:/home/prema/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/prema/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/prema/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar:/home/prema/.m2/repository/com/github/virtuald/curvesapi/1.05/curvesapi-1.05.jar:/home/prema/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/home/prema/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/prema/.m2/repository/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar:/home/prema/.m2/repository/org/apache/logging/log4j/log4j-api/2.9.1/log4j-api-2.9.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/prema"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/prema/eclipse-workspace/Stayflexi_New_Maven_Framework"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/prema/eclipse-workspace/Stayflexi_New_Maven_Framework/target/surefire/surefirebooter800969064907528878.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_242-8u242-b08-0ubuntu3~18.04-b08"/>
+    <property name="user.name" value="prema"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.3.0-42-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/prema/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_242"/>
+    <property name="user.dir" value="/home/prema/eclipse-workspace/Stayflexi_New_Maven_Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.242-b08"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testValidLogin" classname="Scripts.TestValidLogin" time="12.967"/>
+  <testcase name="testInavalidLogin" classname="Scripts.TestInvalidLogin" time="35.675">
+    <failure message="Expected condition failed: waiting for title to be &quot;StayFlexi | Hotel Group Dashboard&quot;. Current title: &quot;StayFlexi | Login&quot; (tried for 10 second(s) with 500 MILLISECONDS interval)&#10;Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;&#10;System info: host: &apos;prema-Latitude-E7450&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-42-generic&apos;, java.version: &apos;1.8.0_242&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=/tmp/.com.google.Chrome.GRKcch}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:46741}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]&#10;Session ID: ab65e15adbecaf9bb1b2e3d5bbc4ef71" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to be "StayFlexi | Hotel Group Dashboard". Current title: "StayFlexi | Login" (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'prema-Latitude-E7450', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-42-generic', java.version: '1.8.0_242'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=/tmp/.com.google.Chrome.GRKcch}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=LINUX, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:46741}, acceptInsecureCerts=false, browserVersion=80.0.3987.122, browserName=chrome, javascriptEnabled=true, platformName=LINUX, setWindowRect=true}]
+Session ID: ab65e15adbecaf9bb1b2e3d5bbc4ef71
+	at Scripts.TestInvalidLogin.testInavalidLogin(TestInvalidLogin.java:31)
+]]></failure>
+    <system-out><![CDATA[1048575
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 4785
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 31, 2020 12:43:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585638839.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638839.176][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638839.277][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638839.381][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638839.483][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638839.585][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638839.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638839.787][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638839.890][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638839.992][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638840.093][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638840.196][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638840.299][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638840.401][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638840.503][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638840.605][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638840.707][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638840.810][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638840.913][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.016][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.119][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.220][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.426][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.527][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.629][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.732][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.834][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638841.937][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.039][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.142][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.243][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.347][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.448][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.550][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.652][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.754][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.855][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638842.957][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.058][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.160][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.263][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.366][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.469][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.570][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.671][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.774][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.878][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638843.980][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638844.082][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638844.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638844.290][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638844.393][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638844.497][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638844.600][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638844.704][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638844.807][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638844.910][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638845.013][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638845.117][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638845.449][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638845.552][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638845.653][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638845.755][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638845.857][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638845.958][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638846.085][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638846.187][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638846.289][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638846.391][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638846.493][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638846.595][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638846.697][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638846.799][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638846.901][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.002][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.104][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.206][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.308][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.410][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.512][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.614][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.716][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.818][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638847.920][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.021][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.122][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.224][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.326][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.429][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.533][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.635][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.737][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.840][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638848.941][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.045][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.148][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.262][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.368][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.469][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.571][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.673][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.774][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.876][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638849.978][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638850.081][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638850.182][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638850.378][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638850.481][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638850.584][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638850.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638850.787][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638850.889][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638850.991][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638851.092][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638851.195][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638851.297][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638851.399][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638851.501][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638851.602][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638851.704][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638851.808][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638851.909][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.010][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.113][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.224][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.325][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.427][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.529][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.631][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.734][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.836][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638852.938][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.041][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.144][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.248][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.349][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.450][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.553][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.654][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.757][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.858][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638853.960][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638854.061][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638854.171][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638854.272][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638854.374][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638854.475][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638854.636][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638854.738][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638854.839][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638854.941][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638855.042][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638855.143][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638855.247][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638855.348][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638855.450][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638862.475][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638862.579][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638862.681][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638862.783][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638862.886][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638862.990][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638863.092][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638863.194][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638863.300][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638863.402][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638863.504][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638863.605][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638870.449][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638870.551][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638870.653][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638870.755][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638870.857][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638871.059][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638871.161][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638871.263][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638879.866][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638880.050][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638880.152][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638880.253][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638880.355][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638880.457][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585638880.558][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+</testsuite>
